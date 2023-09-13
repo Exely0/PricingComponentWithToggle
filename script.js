@@ -29,6 +29,6 @@ toggleButton.addEventListener('change', function() {
     basic.textContent = basicAnnualy;
     professional.textContent = professionalAnnualy;
     master.textContent = masterAnnualy;
-    rond.style.transform = "translateX(0px)"// Couleur lorsque non coché
+    rond.style.transform = "translateX(0px)"
   }
 });

@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="./tailwindstyle.css" rel="stylesheet">
 </head>
-<body class="min-h-screen flex justify-center items-center bg-slate-100">
+<body class="overflow-hidden min-h-screen flex justify-center items-center bg-slate-100">
 
     <img class="absolute top-0 md:right-0" src="pricing-component-with-toggle-master/images/bg-top.svg" alt="background image">
     <img class="absolute bottom-0 left-0 hidden md:block" src="pricing-component-with-toggle-master/images/bg-bottom.svg" alt="background bottom">
@@ -34,7 +34,7 @@
         <!--cards-->
         <div class="flex flex-col mt-8 md:mt-16 gap-5 md:flex-row md:gap-0">
 
-            <div class="font-medium text-gray-700 p-5 flex flex-col items-center bg-white shadow-2xl rounded-xl w-72 gap-2">
+            <div id="card1" class="animate-right md:animate-reveal-slow font-medium text-gray-700 p-5 flex flex-col items-center bg-white shadow-2xl rounded-xl w-72 gap-2">
                 <p>Basic</p>
                 <h1 id="basic" class="font-bold text-6xl mb-4">$249.99</h1>
                 <div class="self-stretch border border-gray-200"></div>
@@ -47,7 +47,7 @@
                 <a href="" class="flex items-center justify-center h-9 mt-4 bg-[linear-gradient(90deg,_#87CEEB,_#4169E1)] self-stretch rounded-xl text-white uppercase tracking-widest text-sm">Learn more</a>
             </div>
 
-            <div class="font-medium text-white p-5 md:my-[-20px] flex flex-col items-center justify-center bg-[linear-gradient(#87CEEB,_#4169E1)] shadow-2xl rounded-xl w-72 gap-2">
+            <div class="animate-left md:animate-reveal-fast font-medium text-white p-5 md:my-[-20px] flex flex-col items-center justify-center bg-[linear-gradient(#87CEEB,_#4169E1)] shadow-2xl rounded-xl w-72 gap-2">
                 <p>Professional</p>
                 <h1 id="professional" class="font-bold text-6xl mb-4">$249.99</h1>
                 <div class="self-stretch border border-gray-200"></div>
@@ -60,7 +60,7 @@
                 <a href="" class="flex items-center justify-center h-9 mt-4 bg-white self-stretch rounded-xl text-[#4169E1] uppercase tracking-widest text-sm">Learn more</a>
             </div>
 
-            <div class="font-medium text-gray-700 p-5 flex flex-col items-center bg-white shadow-2xl rounded-xl w-72 gap-2">
+            <div class="animate-right md:animate-reveal-slow font-medium text-gray-700 p-5 flex flex-col items-center bg-white shadow-2xl rounded-xl w-72 gap-2">
                 <p>Master</p>
                 <h1 id="master" class="font-bold text-6xl mb-4">$249.99</h1>
                 <div class="self-stretch border border-gray-200"></div>
